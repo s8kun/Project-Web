@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Product Page</title>
-    </head>
-    <body>
-        <div class="container">
+  </head>
+  <body>
+    <div>
       <div class="header">
         <div class="header-content">
           <div class="logo">
@@ -43,7 +43,7 @@
         <div class="nav">
           <ul>
             <li>
-              <a href="/index.html">
+              <a href="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="20px"
@@ -59,7 +59,7 @@
               >
             </li>
             <li>
-              <a href="/about.html">
+              <a href="about.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="20px"
@@ -75,7 +75,7 @@
               >
             </li>
             <li>
-              <a href="/contact.html">
+              <a href="contact.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="20px"
@@ -91,7 +91,7 @@
               >
             </li>
             <li>
-              <a href="/products.html">
+              <a href="products.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="20px"
@@ -108,126 +108,153 @@
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+    <main class="page">
+      <div class="products-head">
+        <h2>Products</h2>
+        <div class="filter-pills">
+          <button class="pill">Stainless</button>
+          <button class="pill">Non‑stick</button>
+          <button class="pill">Sets</button>
+          <button class="pill">Accessories</button>
+        </div>
+      </div>
+      <div class="product-grid" id="products">
+        <article class="card">
+          <span class="badge">New</span>
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/Xmw7mSRpRpbhoaD1G8Mwql0lePlV0XvLepJ2hRMI4FM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2l0Y2hlbnN0dWZm/cGx1cy5jb20vbWVk/aWEvY2F0YWxvZy9w/cm9kdWN0LzkvNS85/NTA2OF9ad2lsbGlu/Z19KX0FfX0hlbmNr/ZWxzX0pveV83XzhM/X1N0b2NrcG90X19T/dGFpbmxlc3NfU3Rl/ZWwuanBnP3dpZHRo/PTEwMDAmaGVpZ2h0/PTEwMDAmY2FudmFz/PTEwMDAsMTAwMCZv/cHRpbWl6ZT1oaWdo/JmZpdD1ib3VuZHM"
+              alt=""
+            />
           </div>
-          <main class="page">
-            <div class="products-head">
-              <h2>Products</h2>
-              <div class="filter-pills">
-                <button class="pill">Stainless</button>
-                <button class="pill">Non‑stick</button>
-                <button class="pill">Sets</button>
-                <button class="pill">Accessories</button>
-              </div>
+          <div class="content">
+            <h4 class="title">Classic 8L Stock Pot</h4>
+            <p class="price">$79</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
             </div>
-            <div class="product-grid" id="products">
-              <article class="card">
-                <span class="badge">New</span>
-                <div class="thumb">
-                    <img src="https://imgs.search.brave.com/Xmw7mSRpRpbhoaD1G8Mwql0lePlV0XvLepJ2hRMI4FM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2l0Y2hlbnN0dWZm/cGx1cy5jb20vbWVk/aWEvY2F0YWxvZy9w/cm9kdWN0LzkvNS85/NTA2OF9ad2lsbGlu/Z19KX0FfX0hlbmNr/ZWxzX0pveV83XzhM/X1N0b2NrcG90X19T/dGFpbmxlc3NfU3Rl/ZWwuanBnP3dpZHRo/PTEwMDAmaGVpZ2h0/PTEwMDAmY2FudmFz/PTEwMDAsMTAwMCZv/cHRpbWl6ZT1oaWdo/JmZpdD1ib3VuZHM" alt="">
-                </div>
-                <div class="content">
-                  <h4 class="title">Classic 8L Stock Pot</h4>
-                  <p class="price">$79</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-            <img src="https://imgs.search.brave.com/9_hi7GVI33dF2_lPz4VmYMtbcnsM1RHr9nNZEFJjUJo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFtcGVyZWRjaGVm/LmNvbS9pY2ViZXJn/L2NvbS9wcm9kdWN0/LzEwMDczNC1sZy5q/cGc" alt="">             
-                </div>
-                <div class="content">
-                  <h4 class="title">Non‑stick Sauce Pan</h4>
-                  <p class="price">$59</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-                    <img src="https://imgs.search.brave.com/2If0vJH9bhhMVhXJqWsAqIVGPjDOTu3UVj-vb9b6kEo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxsLWNsYWQuY29t/L21lZGlhL3d5c2l3/eWcvRURESVRFRF9M/YXJnZS1BbGwtQ2xh/ZF9Fc3NlbnRpYWxz/XzEwX1BpZWNlX1Nl/dF8tX0xpZmVzdHls/ZV8xXy5qcGc" alt="">
-                </div>
-                <div class="content">
-                  <h4 class="title">5‑Piece Essentials Set</h4>
-                  <p class="price">$129</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <span class="badge">Hot</span>
-                <div class="thumb">
-                    <img src="https://imgs.search.brave.com/jlFmuWtWXQBkxVKgR3bajnOLRhKc9Y6PHZ9mVBBer_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmV0aGVydG9uLWZv/dW5kcnkuY28udWsv/aW1hZ2UvY2FjaGUv/Y2F0YWxvZy9TcHVu/JTIwY2Fzc2Vyb2xl/L0lNR18yOTYyc21s/LTM3NXgzNzUuanBn" alt="">
-                </div>
-                <div class="content">
-                  <h4 class="title">Deep Casserole Pot</h4>
-                  <p class="price">$69</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-                    <img src="https://imgs.search.brave.com/oJzHn1A6HFYYKIk5oSJ31j22DnnKIh07QyXDWL9YRyQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb21i/ZWtrLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvU291cy0yOC1i/bC0xLTgwMHg4MDAu/d2VicA
-                    " alt="" >
-                </div>
-                <div class="content">
-                  <h4 class="title">Cast Dutch Oven</h4>
-                  <p class="price">$149</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-                    <img style="height: 255px;" src="https://imgs.search.brave.com/EvTJ4m9MuRr0OMx5SYwky7mGkgEw0dm1WwxgfvIeuAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vU3Rl/YW1lci1Db29raW5n/LVN0YWlubGVzcy1T/dGVlbC1TdGVhbWVy/LVBvdC1Gb29kLVN0/ZWFtZXItMTEtaW5j/aC1TdGVhbS1Qb3Rz/LUxpZC01LXRpZXIt/Q29va2luZy1WZWdl/dGFibGVzLVNlYWZv/b2QtU291cHMtU3Rl/d3MtUGFzdGFfZDgy/MGZjOGItMWVlZi00/YzVhLWI3ZDktNzI2/MDdmMDY1NTY5LjQ5/YWE0ZDUyODIzYjA1/MGQwN2MwNzM3ZDgz/MTUyNzlmLmpwZWc_/b2RuSGVpZ2h0PTU4/MCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG" alt="">
-                </div>
-                <div class="content">
-                  <h4 class="title">Multi‑Tier Steamer</h4>
-                  <p class="price">$85</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-                    <img style="height: 255px;" src="https://imgs.search.brave.com/o5xsgpIMl2BHTTQKJz_oftK_wsc2y8eMuCHIAmopHeI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuZGlnaXRhbGNv/bnRlbnQubWFya3Nh/bmRzcGVuY2VyLmFw/cC9pbWFnZS91cGxv/YWQvd18yNTYwLHFf/YXV0byxmX2F1dG8v/UExfMDVfVDM0XzUz/NDZfWTRfWF9FQ18w" alt="">
-                </div>
-                    <div class="content">
-                  <h4 class="title">Milk Pan</h4>
-                  <p class="price">$39</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
-              <article class="card">
-                <div class="thumb">
-                    <img src="https://imgs.search.brave.com/fx5M2Vla0D7VmWfUDVHJEnFUUnd3COoUwXVVEAot0is/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vU3Rl/YWRsaW5lLUxpZC1T/cG9vbi1SZXN0LUtp/dGNoZW4tQ291bnRl/ci1Db29rLUxhZGxl/LVNwYXR1bGEtU3Bv/b24tSG9sZGVyLVN0/b3ZlLVRvcC1VdGVu/c2lsLVJlc3QtUG90/LUxpZC1Ib2xkZXIt/Q291bnRlcnRvcC1N/dWx0aS1mdW5jdGlv/bi1LaXRjaGVuLUdh/ZGdfZDVmZTlmNWMt/ZjA0MC00NmE2LWIy/NzUtMTk3YjU4ZmNl/MmViLjUyNzg1NTQ5/YjhlY2FlMDgxZDAz/OTY4YjI1NTZiNzJh/LmpwZWc_b2RuSGVp/Z2h0PTU4MCZvZG5X/aWR0aD01ODAmb2Ru/Qmc9RkZGRkZG" alt="">
-                </div>
-                <div class="content">
-                  <h4 class="title">Lid + Utensils Kit</h4>
-                  <p class="price">$29</p>
-                  <div class="actions">
-                    <button class="btn primary">Add to cart</button>
-                    <button class="btn ghost">Details</button>
-                  </div>
-                </div>
-              </article>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/9_hi7GVI33dF2_lPz4VmYMtbcnsM1RHr9nNZEFJjUJo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGFtcGVyZWRjaGVm/LmNvbS9pY2ViZXJn/L2NvbS9wcm9kdWN0/LzEwMDczNC1sZy5q/cGc"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Non‑stick Sauce Pan</h4>
+            <p class="price">$59</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
             </div>
-          </main>
-        </body>
-      </html>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/2If0vJH9bhhMVhXJqWsAqIVGPjDOTu3UVj-vb9b6kEo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxsLWNsYWQuY29t/L21lZGlhL3d5c2l3/eWcvRURESVRFRF9M/YXJnZS1BbGwtQ2xh/ZF9Fc3NlbnRpYWxz/XzEwX1BpZWNlX1Nl/dF8tX0xpZmVzdHls/ZV8xXy5qcGc"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">5‑Piece Essentials Set</h4>
+            <p class="price">$129</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <span class="badge">Hot</span>
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/jlFmuWtWXQBkxVKgR3bajnOLRhKc9Y6PHZ9mVBBer_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmV0aGVydG9uLWZv/dW5kcnkuY28udWsv/aW1hZ2UvY2FjaGUv/Y2F0YWxvZy9TcHVu/JTIwY2Fzc2Vyb2xl/L0lNR18yOTYyc21s/LTM3NXgzNzUuanBn"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Deep Casserole Pot</h4>
+            <p class="price">$69</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/oJzHn1A6HFYYKIk5oSJ31j22DnnKIh07QyXDWL9YRyQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb21i/ZWtrLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvU291cy0yOC1i/bC0xLTgwMHg4MDAu/d2VicA
+                    "
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Cast Dutch Oven</h4>
+            <p class="price">$149</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              style="height: 255px"
+              src="https://imgs.search.brave.com/EvTJ4m9MuRr0OMx5SYwky7mGkgEw0dm1WwxgfvIeuAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vU3Rl/YW1lci1Db29raW5n/LVN0YWlubGVzcy1T/dGVlbC1TdGVhbWVy/LVBvdC1Gb29kLVN0/ZWFtZXItMTEtaW5j/aC1TdGVhbS1Qb3Rz/LUxpZC01LXRpZXIt/Q29va2luZy1WZWdl/dGFibGVzLVNlYWZv/b2QtU291cHMtU3Rl/d3MtUGFzdGFfZDgy/MGZjOGItMWVlZi00/YzVhLWI3ZDktNzI2/MDdmMDY1NTY5LjQ5/YWE0ZDUyODIzYjA1/MGQwN2MwNzM3ZDgz/MTUyNzlmLmpwZWc_/b2RuSGVpZ2h0PTU4/MCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Multi‑Tier Steamer</h4>
+            <p class="price">$85</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              style="height: 255px"
+              src="https://imgs.search.brave.com/o5xsgpIMl2BHTTQKJz_oftK_wsc2y8eMuCHIAmopHeI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuZGlnaXRhbGNv/bnRlbnQubWFya3Nh/bmRzcGVuY2VyLmFw/cC9pbWFnZS91cGxv/YWQvd18yNTYwLHFf/YXV0byxmX2F1dG8v/UExfMDVfVDM0XzUz/NDZfWTRfWF9FQ18w"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Milk Pan</h4>
+            <p class="price">$39</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb">
+            <img
+              src="https://imgs.search.brave.com/fx5M2Vla0D7VmWfUDVHJEnFUUnd3COoUwXVVEAot0is/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vU3Rl/YWRsaW5lLUxpZC1T/cG9vbi1SZXN0LUtp/dGNoZW4tQ291bnRl/ci1Db29rLUxhZGxl/LVNwYXR1bGEtU3Bv/b24tSG9sZGVyLVN0/b3ZlLVRvcC1VdGVu/c2lsLVJlc3QtUG90/LUxpZC1Ib2xkZXIt/Q291bnRlcnRvcC1N/dWx0aS1mdW5jdGlv/bi1LaXRjaGVuLUdh/ZGdfZDVmZTlmNWMt/ZjA0MC00NmE2LWIy/NzUtMTk3YjU4ZmNl/MmViLjUyNzg1NTQ5/YjhlY2FlMDgxZDAz/OTY4YjI1NTZiNzJh/LmpwZWc_b2RuSGVp/Z2h0PTU4MCZvZG5X/aWR0aD01ODAmb2Ru/Qmc9RkZGRkZG"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h4 class="title">Lid + Utensils Kit</h4>
+            <p class="price">$29</p>
+            <div class="actions">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn ghost">Details</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
